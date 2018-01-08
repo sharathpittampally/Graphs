@@ -20,6 +20,18 @@ public class Edge
         return weight;
     }
 
+    // Assuming vertex1 is the source.
+    public Vertex getSource()
+    {
+        return vertex1;
+    }
+
+    // ASsuming vertex2 is the destination.
+    public Vertex getDestination()
+    {
+        return vertex2;
+    }
+
     public Vertex getOtherVertex(Vertex v)
     {
         if (v == vertex1)
